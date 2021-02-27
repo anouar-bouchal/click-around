@@ -1,0 +1,6 @@
+{
+    "name": "Click around",
+    "version": "1.0",
+    "description": "This extention will give you analytics on how much time you spend on the internet specifiying the websites you visit!",
+    "manifest_version": 2
+  }
