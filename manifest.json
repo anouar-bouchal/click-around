@@ -1,6 +1,32 @@
 {
-    "name": "Click around",
-    "version": "1.0",
-    "description": "This extention will give you analytics on how much time you spend on the internet specifiying the websites you visit!",
-    "manifest_version": 2
-  }
+  "name": "Click around",
+  "version": "1.0",
+  "description": "This extention will give you analytics on how much time you spend on the internet specifiying the websites you visit!",
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/click_around16.png",
+      "32": "images/click_around32.png",
+      "48": "images/click_around48.png",
+      "128": "images/click_around128.png"
+    }
+  },
+
+  "icons": {
+    "16": "images/click_around16.png",
+    "32": "images/click_around32.png",
+    "48": "images/click_around48.png",
+    "128": "images/click_around128.png"
+  },
+
+  "manifest_version": 2
+}
